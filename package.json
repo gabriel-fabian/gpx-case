@@ -1,0 +1,14 @@
+{
+  "name": "gpx-case",
+  "version": "1.0.0",
+  "description": "A simple React test application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Fabian",
+  "license": "ISC",
+  "engines": {
+    "node": "19.x"
+  }
+}
