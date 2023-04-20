@@ -1,3 +1,5 @@
+import '../presentation/styles/global.scss'
+
 import ReactDOMClient from 'react-dom/client'
 import Router from './routes/router'
 
