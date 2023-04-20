@@ -18,6 +18,7 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "strictNullChecks": false,
+    "isolatedModules": true
   },
   "include": ["src"]
 }
