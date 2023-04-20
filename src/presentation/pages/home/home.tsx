@@ -1,8 +1,13 @@
+import Styles from './home-styles.scss'
+import Clock from './components/clock/clock'
+
 import React from 'react'
 
 const Home: React.FC = () => {
   return (
-    <div>Home</div>
+    <div className={Styles.contentWrap}>
+      <Clock />
+    </div>
   )
 }
 
