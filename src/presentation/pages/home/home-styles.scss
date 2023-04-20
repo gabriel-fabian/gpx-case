@@ -1,3 +1,7 @@
 .contentWrap {
   display: flex;
+
+  .leftPanel {
+    flex-direction: column;
+  }
 }

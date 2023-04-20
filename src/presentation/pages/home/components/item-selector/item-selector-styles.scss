@@ -1,0 +1,21 @@
+.contentWrap {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vw;
+  background-color: #DEB88B;
+  justify-content: center;
+  align-items: center;
+
+  .inputItem {
+    margin-top: 16px;
+  }
+
+  .buttons {
+    margin-top: 16px;
+  }
+
+  .status {
+    margin-top: 16px;
+  }
+}
