@@ -89,9 +89,9 @@ const ItemSelector: React.FC = () => {
   return (
     <div className={Styles.contentWrap}>
       <div className={Styles.selectItem}>
-        <select name='options' id='options' onChange={handleSelectChange}>
+        <select defaultValue='' name='options' id='options' onChange={handleSelectChange}>
           {/* Adicionado uma option para servir como placeholder */}
-          <option value='' disabled selected>
+          <option value='' disabled>
             Selecione uma opção
           </option>
           {/* Pada cada item contido no state será criado uma nova option */}
