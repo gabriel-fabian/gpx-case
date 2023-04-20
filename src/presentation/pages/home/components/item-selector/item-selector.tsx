@@ -89,7 +89,12 @@ const ItemSelector: React.FC = () => {
   return (
     <div className={Styles.contentWrap}>
       <div className={Styles.selectItem}>
-        <select defaultValue='' name='options' id='options' onChange={handleSelectChange}>
+        <select
+          defaultValue=''
+          name='options'
+          id='options'
+          onChange={handleSelectChange}
+        >
           {/* Adicionado uma option para servir como placeholder */}
           <option value='' disabled>
             Selecione uma opção
@@ -111,9 +116,15 @@ const ItemSelector: React.FC = () => {
         />
       </div>
       <div className={Styles.buttons}>
-        <button onClick={handleAddItem}>Adicionar</button>
-        <button onClick={handleRemoveItem}>Remover</button>
-        <button onClick={handleClearInput}>Limpar Caixa</button>
+        <button className={Styles.button} onClick={handleAddItem}>
+          Adicionar
+        </button>
+        <button className={Styles.button} onClick={handleRemoveItem}>
+          Remover
+        </button>
+        <button className={Styles.button} onClick={handleClearInput}>
+          Limpar Caixa
+        </button>
       </div>
       <div className={Styles.status}>
         <span>{status}</span>
